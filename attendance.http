@@ -1,0 +1,51 @@
+POST http://localhost:3000/teacher/register/
+Content-Type : application/json
+
+{
+    "username" : "rajesh",
+    "password" : "rajesh@2024"
+}
+
+###
+
+POST http://localhost:3000/teacher/login/
+Content-Type : application/json
+
+{
+    "username" : "rajesh",
+    "password" : "rajesh@2024"
+}
+
+###
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhdmkiLCJwYXNzd29yZCI6IiQyYiQxMCQudnYxU01qT2ZmMUNQUGJaUURxbTJ1UTF5b3Rmai5jR2piY00zUDBYb0FEUG5HcGR3bHRMdSIsImlhdCI6MTcyMTQ3OTE2N30.kNJxkiTR2G89lV86qZU2ymINJrkDYsWFmCWTiZ88ehI 
+
+POST http://localhost:3000/student/register/
+Content-Type : application/json
+
+{
+    "username" : "rajesh",
+    "password" : "rahul@2021",
+    "gender" : "Male",
+    "attendance" : "Present"
+}
+
+###
+
+POST http://localhost:3000/student/login/
+Content-Type : application/json
+
+{
+    "username" : "siva",
+    "password" : "rahul@2021"
+}
+
+###
+
+GET http://localhost:3000/students/details/
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhdmkiLCJwYXNzd29yZCI6IiQyYiQxMCQudnYxU01qT2ZmMUNQUGJaUURxbTJ1UTF5b3Rmai5jR2piY00zUDBYb0FEUG5HcGR3bHRMdSIsImlhdCI6MTcyMTQ3OTE2N30.kNJxkiTR2G89lV86qZU2ymINJrkDYsWFmCWTiZ88ehI
+
+###
+
+DELETE http://localhost:3000/student/2/
+authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhdmkiLCJwYXNzd29yZCI6IiQyYiQxMCQudnYxU01qT2ZmMUNQUGJaUURxbTJ1UTF5b3Rmai5jR2piY00zUDBYb0FEUG5HcGR3bHRMdSIsImlhdCI6MTcyMTQ3OTE2N30.kNJxkiTR2G89lV86qZU2ymINJrkDYsWFmCWTiZ88ehI
